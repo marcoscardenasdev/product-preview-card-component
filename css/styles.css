@@ -7,6 +7,8 @@
     --color-cream: hsl(30, 38%, 92%);
     --color-white: hsl(0, 0%, 100%);
 
+    --color-link: hsl(228, 45%, 44%);
+
     --font-fraunces: "Fraunces", serif;
     --font-montserrat: "Montserrat", sans-serif;
 }
@@ -147,5 +149,5 @@ body {
 }
 
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    color: var(--color-link)
 }
